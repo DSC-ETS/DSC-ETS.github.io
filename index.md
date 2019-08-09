@@ -4,4 +4,4 @@
 
 layout: home
 ---
- {% include image.html thumb="/assets/images/full_logo.png" %}
+ {% include image.html thumb="/assets/images/full_logo.png" class="center" %}
