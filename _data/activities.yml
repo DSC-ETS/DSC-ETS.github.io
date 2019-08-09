@@ -1,0 +1,10 @@
+# Format of the data:
+# title
+# date: if absent will display: Soon
+# location: if absent will display: Where ? 🤷
+# description
+# link: if absent will display: No registration required so come !
+- title: "Information session"
+  date: "Soon"
+  location: "ETS but where exactly ? 🤷"
+  description: "Let's explain what the DSC is, who we are, what are we doing, and other questions of the kind"

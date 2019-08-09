@@ -1,0 +1,15 @@
+
+<div>
+    <h2>{{ include.activity.title }}</h2>
+    <span class="activity-date">{{ include.activity.date | "Date coming soon" }}</span>
+    <span class="activity-location">{{ include.activity.location | "Where ? 🤷" }}</span>
+    <div>
+        <p class="activity-description">{{ include.activity.description }}</p>
+        {% if include.activity.link %}
+        <a href="{{ include.activity.link }}">Book a ticket on Eventbride</a>
+        {% else %}
+        <span class="activity-no-registration">No registration required so come !</span>
+        {% endif %}
+
+    </div>
+</div>
