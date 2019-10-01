@@ -13,6 +13,21 @@ nav {
   max-height: 100px;
   max-width: 225px;
   padding: 8px 4px 8px 12px;
-  margin: auto;
+}
+
+.site-header .wrapper {
+  height: 100%;
+  padding-top: 1rem;
+  max-width: 80%;
+}
+
+.site-header .page-link:hover, .current{
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: #EF3730 1px solid;
+}
+
+.site-nav .page-link:not(:last-child) {
+  margin-right: 52px;
 }
 
