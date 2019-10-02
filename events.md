@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Activities
-permalink: /activities/
+title: Events
+permalink: /events
 ---
 
 Here you can find all the coming and past activities!
