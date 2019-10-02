@@ -21,10 +21,24 @@ nav {
   max-width: 80%;
 }
 
-.site-header .page-link:hover, .current{
+.current{
   text-decoration: none;
   padding-bottom: 5px;
-  border-bottom: #EF3730 1px solid;
+  border-bottom: rgba(239, 56, 50, 1) 1px solid;
+}
+
+.site-header .page-link {
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: rgba(239, 56, 50, 0) 1px solid;
+  transition: border-color 1s linear;
+  -moz-transition: border-color 1s linear;    /* FF3.7+ */
+  -o-transition: border-color 1s linear;      /* Opera 10.5 */
+  -webkit-transition: border-color .5s linear;
+}
+
+.site-header .page-link:hover {
+  border-bottom-color: rgba(239, 56, 50, 1);
 }
 
 .site-nav .page-link:not(:last-child) {
