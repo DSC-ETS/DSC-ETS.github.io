@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+.event-timer {
+    width: 100%;
+    height: 800px;
+
+    background-image: url("../../resources/EventTimerBackground.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito';
+}
+
+.event-timer-box {
+    width: 67%;
+    height: 300px;
+
+    background-color: rgba(255, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-timer-title {
+    color: white;
+    font-size: 2em;
+    width: 200px;
+}
